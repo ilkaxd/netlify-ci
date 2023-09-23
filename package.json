@@ -13,7 +13,8 @@
     "fixAll": "npm run format && npm run lintfix",
     "build": "gulp build",
     "dev": "gulp",
-    "fixAndBuild": "npm run fixAll && npm run build"
+    "fixAndBuild": "npm run fixAll && npm run build",
+    "lintfixAndPush": "git add . && git commit -m 'repeat' && git push"
   },
   "author": "",
   "license": "ISC",
